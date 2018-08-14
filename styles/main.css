@@ -1,4 +1,18 @@
 body{
-    background:#555
+    background:rgb(32, 32, 32);
     font-family: arial;
+}
+
+h1, h2, p, li {
+    color: darkgrey;
+}
+
+a {
+    color: dimgrey;
+}
+
+p {
+    background: gray;
+    color: snow;
+    padding: 10px;
 }
