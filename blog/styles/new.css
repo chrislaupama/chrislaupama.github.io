@@ -1,0 +1,23 @@
+html,body{background:#ffffff;margin:0;padding:0}
+div{padding:0}
+h1,h2,h3,h4,h5,h6,blockquote{margin:0}
+cite{font-style:normal}
+ol,ul{list-style:none;padding:0}
+a img{border:none}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
+@-ms-viewport{width:device-width}
+@viewport{width:device-width}
+html{overflow-y:auto}
+img,video{max-width:100%;height:auto}
+body{color:#3a3a3a;background:#fff;margin:0;font-family:"colfax-web",sans-serif;font-weight:400;line-height:1.65;font-size:106.3%}
+a{text-decoration:none;color:#EE4938;transition:color 0.2s ease-out}
+a:hover{color:rgba(0,0,0,0.4)}
+::selection,::-moz-selection{background:#3a3a3a;background:#fff8a3;color:#3a3a3a;text-shadow:none}
+h1,h2,h3,h4,h5{font-family:"colfax-web",sans-serif;font-weight:500;font-size:1.667em;line-height:1.25em;margin-bottom:0.25em;color:#3a3a3a}
+h5{font-size:1.375em}
+h6{font-size:1em}
+h2 a.article_title{color:#3a3a3a}
+strong,b,h6{font-weight:bold}
+em,i{font-style:italic}
+p{margin:0 0 2em 0}
+blockquote{color:rgba(0,0,0,0.5);font-style:italic;margin:0 auto;letter-spacing:-0.005em}
