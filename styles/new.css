@@ -2,7 +2,6 @@ html,body{background:#ffffff;margin:10;padding:10}
 div{padding:0}
 h1,h2,h3,h4,h5,h6,blockquote{margin:10}
 cite{font-style:normal}
-ol,ul{list-style:none;padding:10}
 a img{border:none}
 article,aside,canvas,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 @-ms-viewport{width:device-width}
