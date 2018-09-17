@@ -1,23 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Chris's Developer Blog</title>
-    <link href="../styles/new.css" rel="stylesheet" type="text/css"/>
+    <!-- Edit Blog Title -->
+    <title>HTML, CSS & DOM P1</title>
+    <meta charset="UTF-8">
+
+      <!-- Mobile Specific Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- FONT -->
+      <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
   </head>
+
   <body>
-    <div>
-        <div>
-            <h1>H T M L . C S S  . D O M</h1>
-            <div>
-            <a href="https://chrislaupama.github.io/index.html">Home</a>
+    <header>
+      <div class="container">
+          <div class="row"  style="margin-top: 5%">
+              <div class="six columns">
+                  <img class="u-max-full-width" src="https://via.placeholder.com/75x75" alt="Logo Placeholder">
+              </div>
+              <div class="two columns">
+                  <p><a class="button" href="../index.html">Home</a></p>
+              </div>
+              <div class="two columns">
+                  <p><a class="button" href="mailto:chrislaupama@icloud.com">Contact</a></p>
+              </div>
+              <div class="two columns">
+                  <p><a class="button" href="https://github.com/chrislaupama">Github</a></p>
+              </div>
+            </div>
+      </div>
+    </header>
+
+    <div class="container">
+        <div class="row"></div>
+            <div class="twelve columns">
+                <img class="u-max-full-width profile-image" src="https://via.placeholder.com/960x300" alt="Placeholder">
             </div>
         </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+            <h1>Html, CSS & DOM - Part 1</h1>
+        </div>
             <div>
-                <h2 class=article_title>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h2>
+                <h2>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h2>
                     <p>
                         A good way to explain the HTML, CSS and the DOM and the relevance of them to each other would be much like building a house, the materials and how to read the blueprints in an easy to read format.
                     </p>
-                        <h4>HTML</h4>
+                        <h5>HTML</h5>
                             <p>
                                 HTML is like the frame work of the house. HTML will tell you...
                                 <ul>
@@ -28,27 +67,30 @@
                                     <li>The contents within each room/level like does it have carpet, windows, lights etc</li>
                                 </ul>
                             </p>
-                        <h4>CSS</h4>
+                        <h5>CSS</h5>
                             <p>
                                 CSS is the material, and wallpaper, carpet and colours of each for each room, level, wall, window etc - It's a set of materials that helps the HTML know what it should be using to create each of the different elements within the overall house design.
                             </p>
-                        <h4>DOM</h4>
+                        <h5>DOM</h5>
                             <p>
                                 DOM is a way of viewing all of the HTML and CSS in a manner similar to a blueprint. It helps display the content of HTML and the CSS in a way which is easy to manage and read. If you were to give your "blueprint" to someone who knows how to read it, they will easily be able to structure and display your HTML and CSS in the way you intended it to be by breaking it up into the levels, rooms, materials and where each material should be used etc.
                             </p>
-                <h2 class=article_title>
+                <h2>
                     What is meant by boxifying design?
                 </h2>
                     <p>
                         Boxifying design is to basically image a website broken up into boxes. So imagine havine a grid layered over a website design, from there you can see what elements will fit into boxes. Some boxes will contain boxes within them and that's to help section off certain areas with "div" commands so it becomes easier to know the heirarchy of the elements and what their parent container/box is.
                     </p>
-                <h2 class=article_title>
+                <h2>
                     What is the box model?
                 </h2>
                     <p>
                         The box model is to give each element substance to a degree. It all starts with content, which then has a margin, borders, padding etc. This allows the developer to shape/position the content in a way that makes that content sit in a clear position against the surrounding content.
                     </p>
+                </div>
             </div>
-    </div>
-  </body>
-</html>
+        </div>
+    
+      </body>
+    
+    </html>
