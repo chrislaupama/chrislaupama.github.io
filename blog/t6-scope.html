@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Edit Blog Title -->
+    <title>SCOPE</title>
+    <meta charset="UTF-8">
+
+      <!-- Mobile Specific Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- FONT -->
+      <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+          <div class="row"  style="margin-top: 5%">
+              <div class="six columns">
+                  <img class="u-max-full-width" src="../images/logo.png" alt="Logo Placeholder">
+              </div>
+              <div class="two columns">
+                  <p><a class="button" href="https://chrislaupama.github.io/">Home</a></p>
+              </div>
+              <div class="two columns">
+                  <p><a class="button" href="mailto:chrislaupama@icloud.com">Contact</a></p>
+              </div>
+              <div class="two columns">
+                  <p><a class="button" href="https://github.com/chrislaupama">Github</a></p>
+              </div>
+            </div>
+      </div>
+    </header>
+
+    <div class="container">
+        <div class="row"></div>
+            <div class="twelve columns">
+                <img class="u-max-full-width profile-image" src="../images/banner.png" alt="Placeholder">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+              <!-- Edit Blog 1 text -->
+                <h1>Scope</h1>
+              <!-- Edit content -->
+                <h3>What 'scope' is, and how it works in JavaScript.</h3>
+                <p>Scope is all about what code can be read dependant on where the code is defined. There's two types of scope, global and local. </p>
+                <p>Global scope is where code is defined outside of a function, thus allowing it to be called anywhere within the code.</p>
+                <p>Local scope is where things like variables are only accessible within the function (and any nested functions, which is functions within functions) it is decalred within, meaning it is now only accesible locally within that function and if you try and call that variable outside of the function it will come up undefined.</p>
+                <p>As an example, you may have a variable defined bigDogs = 10, but within a function you may have a variable that you also want to call bigDogs, this does not mean that bigDogs is equal to 10 as the functions own variables have their own scope. The same works vice versa, so if you have a variable in a function which says bigDogs = 15, that does not take over the value of the variable which is outside of the function it was defined in.</p>
+            </div>
+        </div>
+    </div>
+
+  </body>
+
+</html>
